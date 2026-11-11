@@ -1,0 +1,9 @@
+.env
+.miro_token
+*.token
+provision_log.csv
+# real attendee lists contain personal data - never commit them
+attendees*.csv
+!sample_attendees.csv
+__pycache__/
+.venv/
